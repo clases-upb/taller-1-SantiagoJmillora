@@ -213,7 +213,7 @@ public class Taller1 {
     try {
         //Declaracion de variables
         double peso_luna_new = 0, peso_tierra_new = 0;
-        final double gravedad = 9.81, constante = 0.165;
+        final float gravedad = 9.81f, constante = 0.165f;
 
         //Operaciones
         peso_tierra_new = peso_kilos * gravedad;
